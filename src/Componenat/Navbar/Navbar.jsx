@@ -47,7 +47,7 @@ const Navbar = () => {
         </div>
         <div className="navbar-end">
           <button className="btn btn-ghost">
-            <img src="https://i.ibb.co.com/Wp7n1Kk9/shopping-cart.png" alt="" />{" "}
+            <img src="https://i.ibb.co/Wp7n1Kk9/shopping-cart.png" alt="" />{" "}
             Login
           </button>
           <button className="btn rounded-full btn-primary">Get Started</button>
@@ -76,12 +76,12 @@ const Navbar = () => {
               Explore Products
             </button>
             <button className="btn btn-outline rounded-full">
-              <img src="https://i.ibb.co.com/zdjRJJr/Play.png" alt="" />
+              <img src="https://i.ibb.co/zdjRJJr/Play.png" alt="" />
               Watch Demo
             </button>
           </div>
         </div>
-        <img src="https://i.ibb.co.com/S7sZrn9M/banner.png" alt="" />
+        <img src="https://i.ibb.co/S7sZrn9M/banner.png" alt="" />
       </div>
       <div className=" flex items-center justify-center gap-10 w-full bg-blue-500 h-30 text-white mt-10">
         <div className="">
