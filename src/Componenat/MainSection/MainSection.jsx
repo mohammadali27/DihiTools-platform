@@ -1,18 +1,23 @@
 import React, { useState } from "react";
 import Tools from "../Tools/Tools";
 import SeclectedCard from "../SelectedCard/SeclectedCard";
+import { toast, ToastContainer } from "react-toastify";
 
 const MainSection = ({ card, setCard }) => {
-
+  const testRemove = () => toast("Removed from cart!");
   const RemoveBtn = (id) => {
     setSelectedTool(seclectedTool.filter((tool) => tool.id !== id));
     setCard(seclectedTool.length - 1);
+    testRemove();
   };
+  const pupup = () => toast("Checkout Successfull!");
   const [activeTab, setActiveTab] = useState("products");
   const [seclectedTool, setSelectedTool] = useState([]);
+
   const CheckoutRemove = () => {
     setSelectedTool([]);
     setCard(0);
+    pupup();
   };
   return (
     <div className="mb-20 mt-10 space-y-5 text-center">

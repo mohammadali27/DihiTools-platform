@@ -89,7 +89,7 @@ const Navbar = ({ card, setCard }) => {
             <ToastContainer />
           </div>
         </div>
-        <img src="https://i.ibb.co/S7sZrn9M/banner.png" alt="" />
+        <img className=" shadow-2xl" src="https://i.ibb.co/S7sZrn9M/banner.png" alt="" />
       </div>
       <div className=" md:flex items-center justify-center gap-30 w-full bg-blue-500 h-30 text-white mt-10">
         <div className="  border-r-2 border-[#8b8888] pr-10">
