@@ -60,7 +60,7 @@ const Navbar = ({ card, setCard }) => {
           <button className="btn rounded-full btn-primary">Get Started</button>
         </div>
       </div>
-      <div className="md:navbar  md:flex justify-between items-center ">
+      <div className="md:navbar  md:flex justify-around items-center ">
         <div className=" p-5 flex flex-col gap-5">
           <div className=" flex items-center bg-[#e1e7ff] rounded-full w-fit px-3">
             <img src="https://i.ibb.co.com/qMhTd0FM/Group-5.png" alt="" />
@@ -70,7 +70,7 @@ const Navbar = ({ card, setCard }) => {
           </div>
 
           <h1 className="font-bold text-4xl text-black">
-            Supercharge Your <br /> Digital Workflow
+            Supercharge Your <br /> <span className="text-purple-500">Digital Workflow</span>
           </h1>
           <p>
             Access premium AI tools, design assets, templates, and productivity{" "}

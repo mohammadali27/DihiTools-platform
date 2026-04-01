@@ -37,7 +37,7 @@
   {
     "id": 3,
     "name": "Cover Letter AI",
-    "img": "https://i.ibb.co/27WZsTmC/design-tool.png",
+    "img": "https://i.ibb.co.com/cKDHCsN4/Group.png",
     "description": "Generate personalized cover letters using AI.",
     "price": 4.99,
     "period": "monthly",
@@ -54,7 +54,7 @@
   {
     "id": 4,
     "name": "Job Tracker",
-    "img": "https://i.ibb.co/27WZsTmC/design-tool.png",
+    "img": "https://i.ibb.co/GfCNq1VT/operation.png",
     "description": "Track job applications and manage interviews efficiently.",
     "price": 7.99,
     "period": "monthly",
@@ -71,7 +71,7 @@
   {
     "id": 5,
     "name": "LinkedIn Optimizer",
-    "img": "https://i.ibb.co/27WZsTmC/design-tool.png",
+    "img": "https://i.ibb.co/9972MGBW/portfolio.png",
     "description": "Improve your LinkedIn profile visibility and engagement.",
     "price": 14.99,
     "period": "yearly",
@@ -88,7 +88,7 @@
   {
     "id": 6,
     "name": "Interview Prep Kit",
-    "img": "https://i.ibb.co/27WZsTmC/design-tool.png",
+    "img": "https://i.ibb.co.com/XZ0BsTFr/social-media.png",
     "description": "Prepare for interviews with common questions and mock tests.",
     "price": 24.99,
     "period": "one-time",

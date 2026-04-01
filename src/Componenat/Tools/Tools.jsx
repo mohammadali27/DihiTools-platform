@@ -52,7 +52,7 @@ const Tools = ({ tool, card, setCard, seclectedTool, setSelectedTool }) => {
 
               <p>{tool.description}</p>
               <span>
-                ${tool.price}/{tool.period}
+                <span className="text-2xl font-bold">${tool.price}</span>/{tool.period}
               </span>
               <p>{tool.features.join(", ")}</p>
               <div className="card-actions justify-end">
