@@ -1,0 +1,107 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "AI Writing Pro",
+      "img":"https://i.ibb.co.com/qMhKNyDJ/writing-2327400-1.png",
+      "description": "Create professional resumes with modern templates and ATS optimization.",
+      "price": 9.99,
+      "period": "monthly",
+      "tag": "popular",
+      "tagType": "popular",
+      "features": [
+        "100+ templates",
+        "ATS optimization",
+        "Export to PDF",
+        "Real-time preview"
+      ],
+      "icon": "FaFileAlt"
+    },
+  {
+    "id": 2,
+    "name": "Portfolio Maker",
+    "img": "https://i.ibb.co/27WZsTmC/design-tool.png",
+    "description": "Build stunning personal portfolios without coding.",
+    "price": 19.99,
+    "period": "one-time",
+    "tag": "best seller",
+    "tagType": "best seller",
+    "features": [
+      "Drag & drop builder",
+      "Custom domains",
+      "Responsive design",
+      "SEO optimization"
+    ],
+    "icon": "FaUser"
+  },
+  {
+    "id": 3,
+    "name": "Cover Letter AI",
+    "img": "https://i.ibb.co/27WZsTmC/design-tool.png",
+    "description": "Generate personalized cover letters using AI.",
+    "price": 4.99,
+    "period": "monthly",
+    "tag": "new",
+    "tagType": "new",
+    "features": [
+      "AI-generated content",
+      "Multiple formats",
+      "Editable templates",
+      "Instant download"
+    ],
+    "icon": "FaEnvelope"
+  },
+  {
+    "id": 4,
+    "name": "Job Tracker",
+    "img": "https://i.ibb.co/27WZsTmC/design-tool.png",
+    "description": "Track job applications and manage interviews efficiently.",
+    "price": 7.99,
+    "period": "monthly",
+    "tag": "popular",
+    "tagType": "popular",
+    "features": [
+      "Application tracking",
+      "Interview reminders",
+      "Notes & status updates",
+      "Analytics dashboard"
+    ],
+    "icon": "FaTasks"
+  },
+  {
+    "id": 5,
+    "name": "LinkedIn Optimizer",
+    "img": "https://i.ibb.co/27WZsTmC/design-tool.png",
+    "description": "Improve your LinkedIn profile visibility and engagement.",
+    "price": 14.99,
+    "period": "yearly",
+    "tag": "best seller",
+    "tagType": "best seller",
+    "features": [
+      "Profile analysis",
+      "Keyword suggestions",
+      "Headline generator",
+      "Connection tips"
+    ],
+    "icon": "FaLinkedin"
+  },
+  {
+    "id": 6,
+    "name": "Interview Prep Kit",
+    "img": "https://i.ibb.co/27WZsTmC/design-tool.png",
+    "description": "Prepare for interviews with common questions and mock tests.",
+    "price": 24.99,
+    "period": "one-time",
+    "tag": "popular",
+    "tagType": "popular",
+    "features": [
+      "500+ questions",
+      "Mock interviews",
+      "Answer guidelines",
+      "Video tips"
+    ],
+    "icon": "FaMicrophone"
+  }
+
+  ]
+}

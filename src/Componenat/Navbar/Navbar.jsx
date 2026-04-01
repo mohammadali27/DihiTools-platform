@@ -1,6 +1,8 @@
 import React from "react";
+import { toast, ToastContainer } from "react-toastify";
 
-const Navbar = () => {
+const Navbar = ({ card, setCard }) => {
+  const notify = () => toast("Demo video will play!");
   return (
     <div>
       <div className=" navbar bg-base-100 shadow-sm sticky top-0 z-50">
@@ -45,15 +47,20 @@ const Navbar = () => {
             </li>
           </ul>
         </div>
-        <div className="navbar-end">
-          <button className="btn btn-ghost">
-            <img src="https://i.ibb.co/Wp7n1Kk9/shopping-cart.png" alt="" />{" "}
-            Login
-          </button>
+        <div className="navbar-end flex gap-2">
+          <div className="flex items-center gap-2">
+            <span>
+              <img src="https://i.ibb.co/Wp7n1Kk9/shopping-cart.png" alt="" />{" "}
+             
+            </span>
+             <span className="">{card}</span>
+          </div>
+
+          <button className="btn btn-ghost">Login</button>
           <button className="btn rounded-full btn-primary">Get Started</button>
         </div>
       </div>
-      <div className="navbar  flex justify-between items-center ">
+      <div className="md:navbar  md:flex justify-between items-center ">
         <div className=" p-5 flex flex-col gap-5">
           <div className=" flex items-center bg-[#e1e7ff] rounded-full w-fit px-3">
             <img src="https://i.ibb.co.com/qMhTd0FM/Group-5.png" alt="" />
@@ -75,24 +82,25 @@ const Navbar = () => {
             <button className="btn btn-primary rounded-full">
               Explore Products
             </button>
-            <button className="btn btn-outline rounded-full">
+            <button onClick={notify} className="btn btn-outline rounded-full">
               <img src="https://i.ibb.co/zdjRJJr/Play.png" alt="" />
               Watch Demo
             </button>
+            <ToastContainer />
           </div>
         </div>
         <img src="https://i.ibb.co/S7sZrn9M/banner.png" alt="" />
       </div>
-      <div className=" flex items-center justify-center gap-10 w-full bg-blue-500 h-30 text-white mt-10">
-        <div className="">
+      <div className=" md:flex items-center justify-center gap-30 w-full bg-blue-500 h-30 text-white mt-10">
+        <div className="  border-r-2 border-[#8b8888] pr-10">
           <h1 className=" font-bold text-4xl">50K+</h1>
           <p>Active Users</p>
         </div>
-        <div className="">
+        <div className="  border-r-2 border-[#8b8888] pr-10 px-10">
           <h1 className=" font-bold text-4xl">200+</h1>
           <p>Premium Tools</p>
         </div>
-        <div className="">
+        <div className="  border-r-2 border-[#8b8888] pr-10 px-10">
           <h1 className=" font-bold text-4xl">4.9</h1>
           <p>Rating</p>
         </div>
