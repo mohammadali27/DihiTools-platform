@@ -2,13 +2,13 @@ import React from "react";
 
 const GetStartedSct = () => {
   return (
-    <div>
-      <div className="mb-10 ">
+    <div className="">
+      <div className=" mb-10 ">
         <div className="flex flex-col justify-center items-center text-center gap-3 mb-10">
           <h1 className="font-bold text-4xl">Get Started in 3 Steps</h1>
           <p>Start using premium digital tools in minutes, not hours.</p>
         </div>
-        <div className="flex justify-center text-center gap-5">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 justify-center text-center gap-5">
           <div className="card bg-base-100 w-96 shadow-sm ">
             <div className="card-body">
               <div className="justify-end flex">
