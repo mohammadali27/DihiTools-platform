@@ -2,7 +2,7 @@ import React from "react";
 import { toast, ToastContainer } from "react-toastify";
 
 const Navbar = ({ card, setCard }) => {
-  const notify = () => toast("Demo video will play!");
+  const notify = () => toast("Demo video will play! 1000 years later...");
   return (
     <div>
       <div className=" navbar bg-base-100 shadow-sm sticky top-0 z-50">
