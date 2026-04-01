@@ -91,7 +91,7 @@ const Navbar = ({ card, setCard }) => {
         </div>
         <img className=" shadow-2xl" src="https://i.ibb.co/S7sZrn9M/banner.png" alt="" />
       </div>
-      <div className=" md:flex items-center justify-center gap-30 w-full bg-blue-500 h-30 text-white mt-10">
+      <div className="grid md:grid-cols-3 lg:grid-cols-3 text-center items-center gap-5 w-full bg-blue-500 h-30 text-white mt-10">
         <div className="  border-r-2 border-[#8b8888] pr-10">
           <h1 className=" font-bold text-4xl">50K+</h1>
           <p>Active Users</p>
